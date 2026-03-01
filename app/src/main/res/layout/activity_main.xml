@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <!-- Surah selector spinner -->
+            <Spinner
+                android:id="@+id/surahSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minWidth="0dp"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <!-- Font-size control row -->
+        <LinearLayout
+            android:id="@+id/fontControlBar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="12dp"
+                android:text="@string/font_size_label"
+                android:textColor="@color/colorOnPrimary"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnFontDecrease"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="36dp"
+                android:text="A−"
+                android:textColor="@color/colorOnPrimary"
+                android:textSize="13sp"
+                android:contentDescription="@string/font_decrease_desc" />
+
+            <Button
+                android:id="@+id/btnFontIncrease"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="40dp"
+                android:layout_height="36dp"
+                android:text="A+"
+                android:textColor="@color/colorOnPrimary"
+                android:textSize="13sp"
+                android:contentDescription="@string/font_increase_desc" />
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

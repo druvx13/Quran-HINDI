@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quran Hindi</string>
+    <string name="splash_subtitle">Arabic · Transliteration · Hindi Translation &amp; Tafsir</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home (Index)</string>
+
+    <!-- Toolbar / Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_night_mode">Night Mode</string>
+
+    <!-- Font controls -->
+    <string name="font_size_label">Font Size:</string>
+    <string name="font_decrease_desc">Decrease font size</string>
+    <string name="font_increase_desc">Increase font size</string>
+
+    <!-- Connectivity -->
+    <string name="offline_audio_hint">Audio requires an internet connection.</string>
+
+    <!-- Audio notification -->
+    <string name="audio_channel_name">Quran Audio</string>
+    <string name="audio_channel_desc">Background Quran audio playback</string>
+    <string name="audio_playing">Playing Quran recitation…</string>
+    <string name="audio_stop">Stop</string>
+</resources>
