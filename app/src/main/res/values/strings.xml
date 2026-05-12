@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hinduism</string>
-    <string name="splash_subtitle">Ancient scriptures and spiritual literature</string>
+    <string name="app_name">Quran Hindi</string>
+    <string name="splash_subtitle">Arabic · Transliteration · Hindi Translation &amp; Tafsir</string>
 
     <!-- Navigation -->
-    <string name="nav_home">Home</string>
+    <string name="nav_home">Home (Index)</string>
 
     <!-- Toolbar / Menu -->
     <string name="menu_home">Home</string>
@@ -20,15 +20,15 @@
 
     <!-- Downloads -->
     <string name="download_started">Downloading %1$s…</string>
-    <string name="download_in_progress">Downloading via Hinduism</string>
+    <string name="download_in_progress">Downloading via Quran Hindi</string>
     <string name="download_saved">Saved to Downloads: %1$s</string>
     <string name="download_failed">Download failed. Please try again.</string>
     <string name="download_permission_denied">Storage permission is required to save files.</string>
     <string name="download_unsupported">This type of download is not supported.</string>
 
     <!-- Audio notification -->
-    <string name="audio_channel_name">Hinduism Audio</string>
-    <string name="audio_channel_desc">Background audio playback</string>
-    <string name="audio_playing">Playing audio…</string>
+    <string name="audio_channel_name">Quran Audio</string>
+    <string name="audio_channel_desc">Background Quran audio playback</string>
+    <string name="audio_playing">Playing Quran recitation…</string>
     <string name="audio_stop">Stop</string>
 </resources>

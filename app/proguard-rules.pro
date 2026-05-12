@@ -1,2 +1,2 @@
 # Add project specific ProGuard rules here.
--keep class com.hinduism.** { *; }
+-keep class com.quran.hindi.** { *; }

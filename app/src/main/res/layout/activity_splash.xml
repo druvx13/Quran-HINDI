@@ -10,7 +10,7 @@
         android:id="@+id/splashLogo"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@drawable/ic_hinduism_logo"
+        android:src="@drawable/ic_quran_logo"
         android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toTopOf="@+id/splashTitle"
         app:layout_constraintEnd_toEndOf="parent"

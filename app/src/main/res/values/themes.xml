@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Hinduism" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.QuranHindi" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -9,7 +9,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Hinduism.Splash" parent="Theme.Hinduism">
+    <style name="Theme.QuranHindi.Splash" parent="Theme.QuranHindi">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
