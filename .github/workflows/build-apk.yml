@@ -50,17 +50,17 @@ jobs:
       - name: Build release APK (signed)
         if: ${{ github.event.inputs.build_type == 'release' }}
         env:
-          KEYSTORE_PATH: ${{ github.workspace }}/keystore/quran-hindi-release.jks
-          KEYSTORE_PASSWORD: quranhindipass
-          KEY_ALIAS: quran-hindi
-          KEY_PASSWORD: quranhindipass
+          KEYSTORE_PATH: ${{ github.workspace }}/keystore/hinduism-release.jks
+          KEYSTORE_PASSWORD: hinduismpass
+          KEY_ALIAS: hinduism
+          KEY_PASSWORD: hinduismpass
         run: ./gradlew assembleRelease --no-daemon
 
       - name: Upload debug APK
         if: ${{ github.event.inputs.build_type == 'debug' }}
         uses: actions/upload-artifact@v4
         with:
-          name: quran-hindi-debug-apk
+          name: hinduism-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
           retention-days: 30
 
@@ -68,6 +68,6 @@ jobs:
         if: ${{ github.event.inputs.build_type == 'release' }}
         uses: actions/upload-artifact@v4
         with:
-          name: quran-hindi-release-apk
+          name: hinduism-release-apk
           path: app/build/outputs/apk/release/app-release.apk
           retention-days: 30

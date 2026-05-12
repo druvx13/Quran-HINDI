@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.quran.hindi'
+    namespace 'com.hinduism'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.quran.hindi"
+        applicationId "com.hinduism"
         minSdk 21
         targetSdk 34
         versionCode 1
@@ -17,10 +17,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file(System.getenv("KEYSTORE_PATH") ?: "${rootDir}/keystore/quran-hindi-release.jks")
-            storePassword System.getenv("KEYSTORE_PASSWORD") ?: "quranhindipass"
-            keyAlias System.getenv("KEY_ALIAS") ?: "quran-hindi"
-            keyPassword System.getenv("KEY_PASSWORD") ?: "quranhindipass"
+            storeFile file(System.getenv("KEYSTORE_PATH") ?: "${rootDir}/keystore/hinduism-release.jks")
+            storePassword System.getenv("KEYSTORE_PASSWORD") ?: "hinduismpass"
+            keyAlias System.getenv("KEY_ALIAS") ?: "hinduism"
+            keyPassword System.getenv("KEY_PASSWORD") ?: "hinduismpass"
         }
     }
 
