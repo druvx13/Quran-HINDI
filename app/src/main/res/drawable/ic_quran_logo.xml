@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quran book icon for the app -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1a3a5c"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+
+    <!-- Book spine -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M48,28 L48,80 L52,80 L52,28 Z" />
+
+    <!-- Left page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30 L48,28 L48,80 L30,78 Z" />
+
+    <!-- Right page -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M52,28 L72,30 L72,78 L52,80 Z" />
+
+    <!-- Arabic text lines on right page -->
+    <path
+        android:fillColor="#1a3a5c"
+        android:pathData="M56,38 L68,38 L68,40 L56,40 Z" />
+    <path
+        android:fillColor="#1a3a5c"
+        android:pathData="M56,44 L68,44 L68,46 L56,46 Z" />
+    <path
+        android:fillColor="#1a3a5c"
+        android:pathData="M56,50 L68,50 L68,52 L56,52 Z" />
+    <path
+        android:fillColor="#1a3a5c"
+        android:pathData="M56,56 L68,56 L68,58 L56,58 Z" />
+
+</vector>

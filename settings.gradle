@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Hinduism"
+rootProject.name = "QuranHindi"
 include ':app'

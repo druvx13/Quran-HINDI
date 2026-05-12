@@ -18,9 +18,9 @@
             android:background="@color/colorPrimary"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
-            <!-- Home navigation spinner -->
+            <!-- Surah selector spinner -->
             <Spinner
-                android:id="@+id/navSpinner"
+                android:id="@+id/surahSpinner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
