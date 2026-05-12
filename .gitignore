@@ -43,7 +43,7 @@ captures/
 *.jks
 *.keystore
 # Allow the release keystore committed intentionally for CI signing
-!keystore/quran-hindi-release.jks
+!keystore/hinduism-release.jks
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild/
